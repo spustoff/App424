@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CalcModel" representedClassName="CalcModel" syncable="YES" codeGenerationType="class">
+        <attribute name="calcDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="calcNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="calcTHours" optional="YES" attributeType="String"/>
+        <attribute name="calcTPrice" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProjectModel" representedClassName="ProjectModel" syncable="YES" codeGenerationType="class">
+        <attribute name="projCategory" optional="YES" attributeType="String"/>
+        <attribute name="projDate" optional="YES" attributeType="String"/>
+        <attribute name="projDeadline" optional="YES" attributeType="String"/>
+        <attribute name="projDescription" optional="YES" attributeType="String"/>
+        <attribute name="projName" optional="YES" attributeType="String"/>
+        <attribute name="projPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
